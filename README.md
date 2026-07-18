@@ -1,12 +1,15 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlign=50&fontAlignY=60&desc=Full%20Stack%20Developer%20|%20Problem%20Solver%20|%20Open%20Source%20Enthusiast&descAlign=50&descAlignY=75" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=50&desc=Developer%20%7C%20Problem%20Solver%20%7C%20Open%20Source%20Enthusiast&descSize=20&descAlignY=70">
 
 <!-- Typing Animation -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=00F7F7&center=true&vCenter=true&random=false&width=700&height=100&lines=Developer+%F0%9F%92%BB;Problem+Solver+%F0%9F%A7%A0;Open+Source+Enthusiast+%F0%9F%9A%80" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=00F7F7&center=true&vCenter=true&random=false&width=700&height=100&lines=Developer+%F0%9F%92%BB;Problem+Solver+%F0%9F%A7%A9;Web+Enthusiast+%F0%9F%8C%90">
 
 <br>
+
+<!-- Premium Flowing Animation -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:7B42F6,50:00F7F7,100:7B42F6&height=100&text=&animation=fadeIn">
 
 <!-- Social Links with Glowing Effect -->
 <p align="center">
@@ -24,8 +27,8 @@
   </a>
 </p>
 
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<!-- Premium Animated Divider -->
+<img src="https://capsule-render.vercel.app/api?type=softEdge&color=0:00F7F7,100:7B42F6&height=80">
 
 </div>
 
@@ -55,8 +58,8 @@ const tarun = {
 
 <br clear="right"/>
 
-<!-- Wave Line -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<!-- Premium Wave Line -->
+<img src="https://capsule-render.vercel.app/api?type=wave&color=0:7B42F6,100:00F7F7&height=100&section=footer">
 
 <!-- Tech Stack with Icons -->
 <h2 align="center">
@@ -110,8 +113,8 @@ const tarun = {
 
 </div>
 
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<!-- Premium Animated Divider -->
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:00F7F7,50:7B42F6,100:00F7F7&height=80">
 
 <!-- GitHub Stats Section -->
 <h2 align="center">📊 GitHub Statistics</h2>
@@ -123,11 +126,11 @@ const tarun = {
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=00F7F7&area_color=00F7F7" />
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=00F7F7"/>
 </div>
 
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<!-- Premium Animated Divider -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B42F6,100:00F7F7&height=100&section=footer">
 
 <div align="center">
   <picture>
