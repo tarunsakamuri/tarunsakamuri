@@ -5,7 +5,7 @@
 
 <!-- Premium Ultra-Enhanced Typing Animation with Glow -->
 <div style="background: linear-gradient(135deg, #00F7F7 0%, #7B42F6 50%, #00F7F7 100%); padding: 20px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 247, 247, 0.5), inset 0 0 30px rgba(123, 66, 246, 0.3); margin: 20px auto; width: fit-content;">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;💡+Innovation+Enthusiast;🔧+Full+Stack+Developer;🌟+Open+Source+Contributor;⚡+Passion+for+Problem+Solving" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;⚡+Innovation+Enthusiast;🌟+Full+Stack+Developer;💡+Open+Source+Contributor;❤️+Passion+for+Problem+Solving" />
 </div>
 
 <!-- Smooth Flowing Gradient Animation -->
