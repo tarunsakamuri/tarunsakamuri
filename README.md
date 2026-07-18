@@ -1,12 +1,10 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Problem%20Solver&descAlignY=51&descAlign=62">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlign=50">
 
 <!-- Premium Ultra-Enhanced Typing Animation with Glow -->
-<div style="background: linear-gradient(135deg, #00F7F7 0%, #7B42F6 50%, #00F7F7 100%); padding: 20px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 247, 247, 0.5), inset 0 0 30px rgba(123, 66, 246, 0.3); margin: 20px auto; width: fit-content;">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;⚡+Innovation+Enthusiast;🌟+Full+Stack+Developer;💡+Open+Source+Contributor;❤️+Passion+for+Problem+Solving" />
-</div>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;💡+Problem+Solver;🌐+Full+Stack+Developer;🎯+Innovation+Enthusiast">
 
 <!-- Smooth Flowing Gradient Animation -->
 <svg width="100%" height="120" viewBox="0 0 1200 120" preserveAspectRatio="none" style="margin-top: -5px;">
@@ -49,13 +47,13 @@
 <!-- Social Links with Premium Glowing Effect -->
 <p align="center" style="margin-top: 30px;">
   <a href="https://www.instagram.com/tsakhamuri_917?igsh=NXB0OTczYzkwcTZl">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" style="filter: drop-shadow(0 0 8px rgba(228, 64, 95, 0.6)); transition: all 0.3s ease;" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" />
   </a>
   <a href="https://www.facebook.com/share/1DGF4fvuRc/">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=1877F2" style="filter: drop-shadow(0 0 8px rgba(24, 119, 242, 0.6)); transition: all 0.3s ease;" />
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=1877F2" />
   </a>
   <a href="mailto:tarunsakamuri2020@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" style="filter: drop-shadow(0 0 8px rgba(209, 72, 54, 0.6)); transition: all 0.3s ease;" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" />
   </a>
 </p>
 
@@ -182,13 +180,13 @@ const tarun = {
 <h2 align="center">📊 GitHub Statistics</h2>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tarunsakamuri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=FFFFFF" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tarunsakamuri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=00FF00" />
   <img width="49%" src="https://nirzak-streak-stats.vercel.app/?user=tarunsakamuri&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF6B6B&currStreakLabel=00F7F7" />
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=00F7F7&area_color=7B42F6" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=00FF00" />
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=00FF00&area=true&area_color=00F7F7" />
 </div>
 
 <!-- Smooth Final Wave Divider -->
