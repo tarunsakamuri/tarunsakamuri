@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=50&desc=Developer%20%7C%20Problem%20Solver%20%7C%20Open%20Source%20Enthusiast&descSize=20&descAlignY=70">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAligin=50">
 
 <!-- Typing Animation -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=00F7F7&center=true&vCenter=true&random=false&width=700&height=100&lines=Developer+%F0%9F%92%BB;Problem+Solver+%F0%9F%A7%A9;Web+Enthusiast+%F0%9F%8C%90">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=00F7F7&center=true&vCenter=true&random=false&width=700&height=100&lines=Developer+%F0%9F%92%BB;Problem+Solver+%F0%9F%92%AD;Tech+Enthusiast+%F0%9F%9A%80">
 
 <br>
 
@@ -35,7 +35,7 @@
 <!-- About Me Section -->
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px"> About Me
+### About Me
 
 ```javascript
 const tarun = {
@@ -63,7 +63,6 @@ const tarun = {
 
 <!-- Tech Stack with Icons -->
 <h2 align="center">
-  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30px"> 
   Tech Arsenal
 </h2>
 
