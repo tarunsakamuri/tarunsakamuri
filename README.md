@@ -1,67 +1,79 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=50&desc=Full%20Stack%20Developer%20%7C%20Problem%20Solver&descAlignY=75&descAlign=50">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlign=50&fontAlignY=60">
 
 <!-- Premium Ultra-Enhanced Typing Animation with Glow -->
-<div style="background: linear-gradient(135deg, #00F7F7 0%, #7B42F6 50%, #00F7F7 100%); padding: 20px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 247, 247, 0.5), inset 0 0 30px rgba(123, 66, 246, 0.3); margin: 20px auto; max-width: 800px;">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;💻+Full+Stack+Innovator;🔧+Problem+Solver+Extraordinaire;✨+Always+Learning+%26+Growing">
+<div style="background: linear-gradient(135deg, #00F7F7 0%, #7B42F6 50%, #00F7F7 100%); padding: 20px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 247, 247, 0.5), inset 0 0 30px rgba(123, 66, 240, 0.3); margin: 20px auto; max-width: 800px;">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;💡+Innovating+Solutions;🎯+Building+the+Future">
 </div>
 
-<!-- Premium Flowing Animation with Enhanced Gradients -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7F7,25:7B42F6,50:FF006E,75:7B42F6,100:00F7F7&height=120&text=&animation=fadeIn&stroke=00F7F7&strokeWidth=3">
-
-<!-- Ultra Premium Particle Effect Divider -->
-<svg width="100%" height="100" viewBox="0 0 1200 100" preserveAspectRatio="none">
+<!-- Smooth Flowing Gradient Animation -->
+<svg width="100%" height="120" viewBox="0 0 1200 120" preserveAspectRatio="none" style="margin-top: -5px;">
   <defs>
-    <linearGradient id="premiumGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="smoothGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#00F7F7;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#7B42F6;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#00F7F7;stop-opacity:1" />
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+    <filter id="smoothGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
-  <!-- Animated wave -->
-  <path d="M0,50 Q150,25 300,50 T600,50 T900,50 T1200,50" stroke="url(#premiumGradient)" stroke-width="4" fill="none" filter="url(#glow)"/>
-  <!-- Flowing particles -->
-  <circle cx="50" cy="50" r="4" fill="#00F7F7" opacity="0.8" filter="url(#glow)">
-    <animate attributeName="cx" from="-20" to="1220" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" from="0" to="1" dur="8s" repeatCount="indefinite"/>
+  <!-- Main smooth wave path -->
+  <path d="M0,60 Q300,20 600,60 T1200,60" stroke="url(#smoothGradient)" stroke-width="3" fill="none" filter="url(#smoothGlow)" stroke-linecap="round"/>
+  <!-- Secondary subtle wave -->
+  <path d="M0,80 Q300,40 600,80 T1200,80" stroke="url(#smoothGradient)" stroke-width="2" fill="none" filter="url(#smoothGlow)" opacity="0.6" stroke-linecap="round"/>
+  
+  <!-- Smooth floating particles -->
+  <circle cy="60" r="5" fill="#00F7F7" filter="url(#smoothGlow)">
+    <animate attributeName="cx" values="0;1200" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="15s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="100" cy="50" r="3" fill="#7B42F6" opacity="0.6" filter="url(#glow)">
-    <animate attributeName="cx" from="-20" to="1220" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" from="0" to="1" dur="10s" repeatCount="indefinite"/>
+  
+  <circle cy="65" r="3.5" fill="#7B42F6" filter="url(#smoothGlow)">
+    <animate attributeName="cx" values="0;1200" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0.8;0" dur="18s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="150" cy="50" r="3.5" fill="#FF006E" opacity="0.7" filter="url(#glow)">
-    <animate attributeName="cx" from="-20" to="1220" dur="12s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" from="0" to="1" dur="12s" repeatCount="indefinite"/>
+  
+  <circle cy="70" r="4" fill="#00F7F7" filter="url(#smoothGlow)" opacity="0.6">
+    <animate attributeName="cx" values="0;1200" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.6;0.6;0" dur="20s" repeatCount="indefinite"/>
   </circle>
 </svg>
 
 <!-- Social Links with Premium Glowing Effect -->
 <p align="center" style="margin-top: 30px;">
   <a href="">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" style="filter: drop-shadow(0 0 8px rgba(0, 119, 181, 0.6)); transition: all 0.3s;"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" style="filter: drop-shadow(0 0 8px rgba(0, 119, 181, 0.6)); transition: all 0.3s ease;">
   </a>
   <a href="https://www.instagram.com/tsakhamuri_917?igsh=NXB0OTczYzkwcTZl">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" style="filter: drop-shadow(0 0 8px rgba(228, 64, 95, 0.6)); transition: all 0.3s;"/>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" style="filter: drop-shadow(0 0 8px rgba(228, 64, 95, 0.6)); transition: all 0.3s ease;">
   </a>
   <a href="https://www.facebook.com/share/1DGF4fvuRc/">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=1877F2" style="filter: drop-shadow(0 0 8px rgba(24, 119, 242, 0.6)); transition: all 0.3s;"/>
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=1877F2" style="filter: drop-shadow(0 0 8px rgba(24, 119, 242, 0.6)); transition: all 0.3s ease;">
   </a>
   <a href="mailto:tarunsakamuri2020@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" style="filter: drop-shadow(0 0 8px rgba(209, 72, 54, 0.6)); transition: all 0.3s;"/>
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" style="filter: drop-shadow(0 0 8px rgba(209, 72, 54, 0.6)); transition: all 0.3s ease;">
   </a>
 </p>
 
-<!-- Premium Animated Divider with Multiple Layers -->
-<img src="https://capsule-render.vercel.app/api?type=softEdge&color=0:00F7F7,50:7B42F6,100:00F7F7&height=100&stroke=00F7F7&strokeWidth=2">
+<!-- Smooth Animated Divider -->
+<svg width="100%" height="80" viewBox="0 0 1200 80" preserveAspectRatio="none" style="margin: 20px 0 0 0;">
+  <defs>
+    <linearGradient id="dividerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00F7F7;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#7B42F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00F7F7;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <path d="M0,40 Q300,10 600,40 T1200,40" stroke="url(#dividerGradient)" stroke-width="2" fill="none" opacity="0.8" stroke-linecap="round"/>
+  <path d="M0,50 Q300,20 600,50 T1200,50" stroke="url(#dividerGradient)" stroke-width="1" fill="none" opacity="0.5" stroke-linecap="round"/>
+</svg>
 
 </div>
 
@@ -92,8 +104,18 @@ const tarun = {
 
 <br clear="right"/>
 
-<!-- Premium Wave Line -->
-<img src="https://capsule-render.vercel.app/api?type=wave&color=0:7B42F6,50:00F7F7,100:7B42F6&height=120&section=footer&stroke=00F7F7&strokeWidth=2">
+<!-- Smooth Wave Divider -->
+<svg width="100%" height="80" viewBox="0 0 1200 80" preserveAspectRatio="none" style="margin: 30px 0 0 0;">
+  <defs>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7B42F6;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#00F7F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7B42F6;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  <path d="M0,40 Q150,15 300,40 T600,40 T900,40 T1200,40" stroke="url(#waveGradient)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M0,55 Q150,30 300,55 T600,55 T900,55 T1200,55" stroke="url(#waveGradient)" stroke-width="1.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+</svg>
 
 <!-- Tech Stack with Icons -->
 <h2 align="center">
@@ -146,24 +168,44 @@ const tarun = {
 
 </div>
 
-<!-- Premium Animated Divider -->
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:00F7F7,25:7B42F6,50:FF006E,75:7B42F6,100:00F7F7&height=100&stroke=00F7F7&strokeWidth=2">
+<!-- Smooth Animated Divider -->
+<svg width="100%" height="80" viewBox="0 0 1200 80" preserveAspectRatio="none" style="margin: 30px 0 0 0;">
+  <defs>
+    <linearGradient id="techDivider" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00F7F7;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#7B42F6;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#00F7F7;stop-opacity:0.4" />
+    </linearGradient>
+  </defs>
+  <path d="M0,40 Q300,10 600,40 T1200,40" stroke="url(#techDivider)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M0,55 Q300,25 600,55 T1200,55" stroke="url(#techDivider)" stroke-width="1.5" fill="none" opacity="0.5" stroke-linecap="round"/>
+</svg>
 
 <!-- GitHub Stats Section -->
 <h2 align="center">📊 GitHub Statistics</h2>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tarunsakamuri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=FFFFFF" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tarunsakamuri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=FFFFFF">
   <img width="49%" src="https://nirzak-streak-stats.vercel.app/?user=tarunsakamuri&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF6B6B&currStreakLabel=00F7F7"/>
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=00F7F7" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF">
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=00F7F7">
 </div>
 
-<!-- Premium Animated Divider -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B42F6,50:00F7F7,100:7B42F6&height=120&section=footer&stroke=00F7F7&strokeWidth=2">
+<!-- Smooth Final Wave Divider -->
+<svg width="100%" height="100" viewBox="0 0 1200 100" preserveAspectRatio="none" style="margin-top: 30px;">
+  <defs>
+    <linearGradient id="finalWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7B42F6;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#00F7F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7B42F6;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  <path d="M0,50 Q300,20 600,50 T1200,50" stroke="url(#finalWave)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M0,70 Q300,40 600,70 T1200,70" stroke="url(#finalWave)" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round"/>
+</svg>
 
 <div align="center">
   <picture>
