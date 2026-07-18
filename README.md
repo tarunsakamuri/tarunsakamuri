@@ -1,34 +1,67 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAligin=50">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=50&desc=Full%20Stack%20Developer%20%7C%20Problem%20Solver&descAlignY=75&descAlign=50">
 
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=00F7F7&center=true&vCenter=true&random=false&width=700&height=100&lines=Developer+%F0%9F%92%BB;Problem+Solver+%F0%9F%92%AD;Tech+Enthusiast+%F0%9F%9A%80">
+<!-- Premium Ultra-Enhanced Typing Animation with Glow -->
+<div style="background: linear-gradient(135deg, #00F7F7 0%, #7B42F6 50%, #00F7F7 100%); padding: 20px; border-radius: 15px; box-shadow: 0 0 30px rgba(0, 247, 247, 0.5), inset 0 0 30px rgba(123, 66, 246, 0.3); margin: 20px auto; max-width: 800px;">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;💻+Full+Stack+Innovator;🔧+Problem+Solver+Extraordinaire;✨+Always+Learning+%26+Growing">
+</div>
 
-<br>
+<!-- Premium Flowing Animation with Enhanced Gradients -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:00F7F7,25:7B42F6,50:FF006E,75:7B42F6,100:00F7F7&height=120&text=&animation=fadeIn&stroke=00F7F7&strokeWidth=3">
 
-<!-- Premium Flowing Animation -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:7B42F6,50:00F7F7,100:7B42F6&height=100&text=&animation=fadeIn">
+<!-- Ultra Premium Particle Effect Divider -->
+<svg width="100%" height="100" viewBox="0 0 1200 100" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="premiumGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00F7F7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7B42F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00F7F7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Animated wave -->
+  <path d="M0,50 Q150,25 300,50 T600,50 T900,50 T1200,50" stroke="url(#premiumGradient)" stroke-width="4" fill="none" filter="url(#glow)"/>
+  <!-- Flowing particles -->
+  <circle cx="50" cy="50" r="4" fill="#00F7F7" opacity="0.8" filter="url(#glow)">
+    <animate attributeName="cx" from="-20" to="1220" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0" to="1" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="50" r="3" fill="#7B42F6" opacity="0.6" filter="url(#glow)">
+    <animate attributeName="cx" from="-20" to="1220" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0" to="1" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="50" r="3.5" fill="#FF006E" opacity="0.7" filter="url(#glow)">
+    <animate attributeName="cx" from="-20" to="1220" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0" to="1" dur="12s" repeatCount="indefinite"/>
+  </circle>
+</svg>
 
-<!-- Social Links with Glowing Effect -->
-<p align="center">
+<!-- Social Links with Premium Glowing Effect -->
+<p align="center" style="margin-top: 30px;">
   <a href="">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" style="filter: drop-shadow(0 0 8px rgba(0, 119, 181, 0.6)); transition: all 0.3s;"/>
   </a>
   <a href="https://www.instagram.com/tsakhamuri_917?igsh=NXB0OTczYzkwcTZl">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F"/>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" style="filter: drop-shadow(0 0 8px rgba(228, 64, 95, 0.6)); transition: all 0.3s;"/>
   </a>
   <a href="https://www.facebook.com/share/1DGF4fvuRc/">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=1877F2"/>
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=1877F2" style="filter: drop-shadow(0 0 8px rgba(24, 119, 242, 0.6)); transition: all 0.3s;"/>
   </a>
   <a href="mailto:tarunsakamuri2020@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836"/>
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" style="filter: drop-shadow(0 0 8px rgba(209, 72, 54, 0.6)); transition: all 0.3s;"/>
   </a>
 </p>
 
-<!-- Premium Animated Divider -->
-<img src="https://capsule-render.vercel.app/api?type=softEdge&color=0:00F7F7,100:7B42F6&height=80">
+<!-- Premium Animated Divider with Multiple Layers -->
+<img src="https://capsule-render.vercel.app/api?type=softEdge&color=0:00F7F7,50:7B42F6,100:00F7F7&height=100&stroke=00F7F7&strokeWidth=2">
 
 </div>
 
@@ -41,8 +74,8 @@
 const tarun = {
     pronouns: "He/Him",
     location: "India 🇮🇳",
-    currentRole: "Developer",
-    interests: ["Problem Solving", "Web Development", "Open Source"],
+    currentRole: "Full Stack Developer",
+    interests: ["Problem Solving", "Web Development", "Open Source", "Innovation"],
     motto: "Code with passion, solve with purpose",
     
     lifeLoop: function() {
@@ -50,6 +83,7 @@ const tarun = {
             code();
             learn();
             solve();
+            innovate();
             repeat();
         }
     }
@@ -59,7 +93,7 @@ const tarun = {
 <br clear="right"/>
 
 <!-- Premium Wave Line -->
-<img src="https://capsule-render.vercel.app/api?type=wave&color=0:7B42F6,100:00F7F7&height=100&section=footer">
+<img src="https://capsule-render.vercel.app/api?type=wave&color=0:7B42F6,50:00F7F7,100:7B42F6&height=120&section=footer&stroke=00F7F7&strokeWidth=2">
 
 <!-- Tech Stack with Icons -->
 <h2 align="center">
@@ -113,7 +147,7 @@ const tarun = {
 </div>
 
 <!-- Premium Animated Divider -->
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:00F7F7,50:7B42F6,100:00F7F7&height=80">
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:00F7F7,25:7B42F6,50:FF006E,75:7B42F6,100:00F7F7&height=100&stroke=00F7F7&strokeWidth=2">
 
 <!-- GitHub Stats Section -->
 <h2 align="center">📊 GitHub Statistics</h2>
@@ -125,11 +159,11 @@ const tarun = {
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=00F7F7"/>
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=00F7F7" />
 </div>
 
 <!-- Premium Animated Divider -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B42F6,100:00F7F7&height=100&section=footer">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7B42F6,50:00F7F7,100:7B42F6&height=120&section=footer&stroke=00F7F7&strokeWidth=2">
 
 <div align="center">
   <picture>
