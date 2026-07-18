@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlign=50&fontAlignY=60&desc=Full%20Stack%20Developer%20|%20Problem%20Solver%20|%20Open%20Source%20Enthusiast&descAlign=50&descAlignY=75" />
 
 <!-- Typing Animation -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=00F7F7&center=true&vCenter=true&random=false&width=700&height=100&lines=Developer+%F0%9F%92%BB;Problem+Solver+%F0%9F%A7%A0;Tech+Enthusiast+%F0%9F%9A%80"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=00F7F7&center=true&vCenter=true&random=false&width=700&height=100&lines=Developer+%F0%9F%92%BB;Problem+Solver+%F0%9F%A7%A0;Open+Source+Enthusiast+%F0%9F%9A%80" />
 
 <br>
 
@@ -82,7 +82,7 @@ const tarun = {
 #### ⚙️ Backend
 <div align="center">
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
 </div>
 
@@ -100,8 +100,8 @@ const tarun = {
 #### 💻 Languages
 <div align="center">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
 </div>
 
 </td>
@@ -117,13 +117,13 @@ const tarun = {
 <h2 align="center">📊 GitHub Statistics</h2>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tarunsakamuri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=FFFFFF"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tarunsakamuri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=FFFFFF" />
   <img width="49%" src="https://nirzak-streak-stats.vercel.app/?user=tarunsakamuri&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF6B6B&currStreakLabel=00F7F7"/>
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF"/>
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=00F7F7&area_color=0D1117&area=true"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=FFFFFF" />
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=00F7F7&area_color=00F7F7" />
 </div>
 
 <!-- Animated Divider -->
