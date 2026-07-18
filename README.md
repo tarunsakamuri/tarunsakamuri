@@ -10,16 +10,16 @@
 
 <!-- Social Links with Glowing Effect -->
 <p align="center">
-  <a href="https://linkedin.com/in/tarunsakamuri">
+  <a href="">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5"/>
   </a>
-  <a href="https://instagram.com/tarunsakamuri">
+  <a href="https://www.instagram.com/tsakhamuri_917?igsh=NXB0OTczYzkwcTZl">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F"/>
   </a>
-  <a href="https://facebook.com/tarunsakamuri">
+  <a href="https://www.facebook.com/share/1DGF4fvuRc/">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&labelColor=1877F2"/>
   </a>
-  <a href="mailto:tarun@example.com">
+  <a href="mailto:tarunsakamuri2020@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836"/>
   </a>
 </p>
