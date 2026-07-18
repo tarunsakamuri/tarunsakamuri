@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Problem%20Solver&descAlignY=62&descAlign=50" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAli[...]
 
 <!-- Premium Ultra-Enhanced Typing Animation with Glow -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;💡+Innovation+Focused;🎯+Solution+Oriented;🚀+Always+Learning" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;[...]
 
 <!-- Smooth Flowing Gradient Animation -->
 <svg width="100%" height="120" viewBox="0 0 1200 120" preserveAspectRatio="none" style="margin-top: -5px;">
@@ -56,20 +56,6 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" />
   </a>
 </p>
-
-<!-- Badges Section -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Full%20Stack-Developer-00F7F7?style=flat-square&logo=code" />
-  <img src="https://img.shields.io/badge/Open%20Source-Enthusiast-7B42F6?style=flat-square&logo=github" />
-  <img src="https://img.shields.io/badge/Problem%20Solver-Expert-00F7F7?style=flat-square&logo=lightbulb" />
-  <img src="https://img.shields.io/badge/Web%20Development-Passionate-7B42F6?style=flat-square&logo=globe" />
-</p>
-
-<!-- Trophies Section -->
-<h3 align="center">🏆 Achievements</h3>
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=tarunsakamuri&theme=tokyonight&no-frame=true&margin-w=5&margin-h=5&column=4&row=2" />
-</div>
 
 <!-- Smooth Animated Divider -->
 <svg width="100%" height="80" viewBox="0 0 1200 80" preserveAspectRatio="none" style="margin: 20px 0 0 0;">
@@ -194,13 +180,13 @@ const tarun = {
 <h2 align="center">📊 GitHub Statistics</h2>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tarunsakamuri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=00FF19&hide=contribs,issues" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tarunsakamuri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=00FF[...]
   <img width="49%" src="https://nirzak-streak-stats.vercel.app/?user=tarunsakamuri&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF6B6B&currStreakLabel=00F7F7" />
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=00FF19" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=FF1493" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=00FF[...]
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=F[...]
 </div>
 
 <!-- Smooth Final Wave Divider -->
