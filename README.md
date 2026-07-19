@@ -180,13 +180,19 @@ const tarun = {
 <h2 align="center">📊 GitHub Statistics</h2>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=tarunsakamuri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=00FFFF" />
-  <img width="49%" src="https://nirzak-streak-stats.vercel.app/?user=tarunsakamuri&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF6B6B&currStreakLabel=00F7F7" />
+  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=tarunsakamuri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=00FFFF" />
 </div>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=00FFFF" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=FF006E&area=true" />
+  <img width="100%" src="https://nirzak-streak-stats.vercel.app/?user=tarunsakamuri&theme=tokyonight&hide_border=true&background=0D1117&stroke=00F7F7&ring=00F7F7&fire=FF6B6B&currStreakLabel=00F7F7" />
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=00FFFF" />
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=FF006E&area=true" />
 </div>
 
 <!-- Smooth Final Wave Divider -->
