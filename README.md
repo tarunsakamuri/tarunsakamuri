@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlign=50">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Passionate%20Developer%20|%20Problem%20Solver%20|%20Innovation%20Enthusiast&descAlignY=51&descAlign=50;" />
 
 <!-- Premium Ultra-Enhanced Typing Animation with Glow -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;💡+Problem+Solver;🔧+Full+Stack+Innovator">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;💡+Building+Tomorrow's+Solutions;🔧+Full+Stack+Engineer;🌟+Open+Source+Enthusiast" alt="Typing Animation" />
 
 <!-- Smooth Flowing Gradient Animation -->
 <svg width="100%" height="120" viewBox="0 0 1200 120" preserveAspectRatio="none" style="margin-top: -5px;">
@@ -186,7 +186,7 @@ const tarun = {
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=00FFFF" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=FF6B6B&area_color=7B42F6&title_color=00F7F7" />
+  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=FF006E&area=true" />
 </div>
 
 <!-- Smooth Final Wave Divider -->
