@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlign=50&fontAlignY=40">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7F7,100:7B42F6&height=200&section=header&text=Tarun%20Sakamuri&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=50">
 
 <!-- Premium Ultra-Enhanced Typing Animation with Glow -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;💻+Full+Stack+Developer;🌟+Open+Source+Enthusiast;🔥+Innovation+Driven">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&pause=800&color=00F7F7&center=true&vCenter=true&random=false&width=750&height=120&lines=🚀+Developer+with+Purpose;💡+Problem+Solver;🌐+Building+the+Web">
 
 <!-- Smooth Flowing Gradient Animation -->
 <svg width="100%" height="120" viewBox="0 0 1200 120" preserveAspectRatio="none" style="margin-top: -5px;">
@@ -57,17 +57,53 @@
   </a>
 </p>
 
-<!-- Smooth Animated Divider -->
-<svg width="100%" height="80" viewBox="0 0 1200 80" preserveAspectRatio="none" style="margin: 20px 0 0 0;">
+<!-- Animated Divider with Red Rays -->
+<svg width="100%" height="100" viewBox="0 0 1200 100" preserveAspectRatio="none" style="margin: 20px 0;">
   <defs>
-    <linearGradient id="dividerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="dividerGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#00F7F7;stop-opacity:0.3" />
       <stop offset="50%" style="stop-color:#7B42F6;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#00F7F7;stop-opacity:0.3" />
     </linearGradient>
+    <filter id="redGlow">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <path d="M0,40 Q300,10 600,40 T1200,40" stroke="url(#dividerGradient)" stroke-width="2" fill="none" opacity="0.8" stroke-linecap="round"/>
-  <path d="M0,50 Q300,20 600,50 T1200,50" stroke="url(#dividerGradient)" stroke-width="1" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <!-- Main waves -->
+  <path d="M0,40 Q300,10 600,40 T1200,40" stroke="url(#dividerGradient1)" stroke-width="2" fill="none" opacity="0.8" stroke-linecap="round"/>
+  <path d="M0,50 Q300,20 600,50 T1200,50" stroke="url(#dividerGradient1)" stroke-width="1" fill="none" opacity="0.5" stroke-linecap="round"/>
+  
+  <!-- Red rays passing above -->
+  <line x1="0" y1="15" x2="1200" y2="15" stroke="#FF0000" stroke-width="1.5" opacity="0.8">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="0" y1="10" x2="1200" y2="10" stroke="#FF3333" stroke-width="1" opacity="0.5">
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.5s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Red rays passing below -->
+  <line x1="0" y1="65" x2="1200" y2="65" stroke="#FF0000" stroke-width="1.5" opacity="0.8">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="0" y1="70" x2="1200" y2="70" stroke="#FF3333" stroke-width="1" opacity="0.5">
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.7s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Moving red particles -->
+  <circle r="2" fill="#FF0000" filter="url(#redGlow)">
+    <animate attributeName="cx" values="0;1200" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="15;15" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#FF0000" filter="url(#redGlow)">
+    <animate attributeName="cx" values="0;1200" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="70;70" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
 </svg>
 
 </div>
@@ -99,17 +135,38 @@ const tarun = {
 
 <br clear="right"/>
 
-<!-- Smooth Wave Divider -->
-<svg width="100%" height="80" viewBox="0 0 1200 80" preserveAspectRatio="none" style="margin: 30px 0 0 0;">
+<!-- Wave Divider with Red Rays -->
+<svg width="100%" height="100" viewBox="0 0 1200 100" preserveAspectRatio="none" style="margin: 30px 0;">
   <defs>
-    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="waveGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#7B42F6;stop-opacity:0.8" />
       <stop offset="50%" style="stop-color:#00F7F7;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#7B42F6;stop-opacity:0.8" />
     </linearGradient>
   </defs>
-  <path d="M0,40 Q150,15 300,40 T600,40 T900,40 T1200,40" stroke="url(#waveGradient)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-  <path d="M0,55 Q150,30 300,55 T600,55 T900,55 T1200,55" stroke="url(#waveGradient)" stroke-width="1.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <!-- Main waves -->
+  <path d="M0,40 Q150,15 300,40 T600,40 T900,40 T1200,40" stroke="url(#waveGradient2)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M0,55 Q150,30 300,55 T600,55 T900,55 T1200,55" stroke="url(#waveGradient2)" stroke-width="1.5" fill="none" opacity="0.6" stroke-linecap="round"/>
+  
+  <!-- Red rays passing -->
+  <line x1="0" y1="8" x2="1200" y2="8" stroke="#FF0000" stroke-width="1.5" opacity="0.7">
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="2.3s" repeatCount="indefinite"/>
+  </line>
+  <line x1="0" y1="72" x2="1200" y2="72" stroke="#FF0000" stroke-width="1.5" opacity="0.7">
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="2.4s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Red particles -->
+  <circle r="2.5" fill="#FF0000" filter="url(#redGlow)">
+    <animate attributeName="cx" values="0;1200" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="8;8" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2.5" fill="#FF0000" filter="url(#redGlow)">
+    <animate attributeName="cx" values="0;1200" dur="3.3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="72;72" dur="3.3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3.3s" repeatCount="indefinite"/>
+  </circle>
 </svg>
 
 <!-- Tech Stack with Icons -->
@@ -163,24 +220,45 @@ const tarun = {
 
 </div>
 
-<!-- Smooth Animated Divider -->
-<svg width="100%" height="80" viewBox="0 0 1200 80" preserveAspectRatio="none" style="margin: 30px 0 0 0;">
+<!-- Tech Divider with Red Rays -->
+<svg width="100%" height="100" viewBox="0 0 1200 100" preserveAspectRatio="none" style="margin: 30px 0;">
   <defs>
-    <linearGradient id="techDivider" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="techDivider2" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#00F7F7;stop-opacity:0.4" />
       <stop offset="50%" style="stop-color:#7B42F6;stop-opacity:0.9" />
       <stop offset="100%" style="stop-color:#00F7F7;stop-opacity:0.4" />
     </linearGradient>
   </defs>
-  <path d="M0,40 Q300,10 600,40 T1200,40" stroke="url(#techDivider)" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <path d="M0,55 Q300,25 600,55 T1200,55" stroke="url(#techDivider)" stroke-width="1.5" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <!-- Main waves -->
+  <path d="M0,40 Q300,10 600,40 T1200,40" stroke="url(#techDivider2)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M0,55 Q300,25 600,55 T1200,55" stroke="url(#techDivider2)" stroke-width="1.5" fill="none" opacity="0.5" stroke-linecap="round"/>
+  
+  <!-- Red rays passing -->
+  <line x1="0" y1="12" x2="1200" y2="12" stroke="#FF0000" stroke-width="1.5" opacity="0.75">
+    <animate attributeName="opacity" values="0.2;0.75;0.2" dur="2.1s" repeatCount="indefinite"/>
+  </line>
+  <line x1="0" y1="68" x2="1200" y2="68" stroke="#FF0000" stroke-width="1.5" opacity="0.75">
+    <animate attributeName="opacity" values="0.2;0.75;0.2" dur="2.6s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Red particles -->
+  <circle r="2.5" fill="#FF0000" filter="url(#redGlow)">
+    <animate attributeName="cx" values="0;1200" dur="3.4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="12;12" dur="3.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2.5" fill="#FF0000" filter="url(#redGlow)">
+    <animate attributeName="cx" values="0;1200" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="68;68" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
 </svg>
 
 <!-- GitHub Stats Section -->
 <h2 align="center">📊 GitHub Statistics</h2>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=tarunsakamuri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=00F7F7" />
+  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=tarunsakamuri&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&icon_color=00F7F7&text_color=ffffff" />
 </div>
 
 <div align="center">
@@ -188,24 +266,52 @@ const tarun = {
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=00F7F7" />
+  <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tarunsakamuri&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F7F7&text_color=ffffff" />
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=FF6B6B&title_color=00F7F7" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tarunsakamuri&custom_title=Contribution%20Graph&hide_border=true&bg_color=0D1117&color=00F7F7&line=7B42F6&point=00F7F7" />
 </div>
 
-<!-- Smooth Final Wave Divider -->
-<svg width="100%" height="100" viewBox="0 0 1200 100" preserveAspectRatio="none" style="margin-top: 30px;">
+<!-- Final Wave Divider with Red Rays -->
+<svg width="100%" height="120" viewBox="0 0 1200 120" preserveAspectRatio="none" style="margin-top: 30px;">
   <defs>
-    <linearGradient id="finalWave" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="finalWave2" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#7B42F6;stop-opacity:0.7" />
       <stop offset="50%" style="stop-color:#00F7F7;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#7B42F6;stop-opacity:0.7" />
     </linearGradient>
   </defs>
-  <path d="M0,50 Q300,20 600,50 T1200,50" stroke="url(#finalWave)" stroke-width="3" fill="none" stroke-linecap="round"/>
-  <path d="M0,70 Q300,40 600,70 T1200,70" stroke="url(#finalWave)" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round"/>
+  <!-- Main waves -->
+  <path d="M0,50 Q300,20 600,50 T1200,50" stroke="url(#finalWave2)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M0,70 Q300,40 600,70 T1200,70" stroke="url(#finalWave2)" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round"/>
+  
+  <!-- Red rays passing above and below -->
+  <line x1="0" y1="10" x2="1200" y2="10" stroke="#FF0000" stroke-width="2" opacity="0.8">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="0" y1="5" x2="1200" y2="5" stroke="#FF3333" stroke-width="1" opacity="0.5">
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.3s" repeatCount="indefinite"/>
+  </line>
+  
+  <line x1="0" y1="100" x2="1200" y2="100" stroke="#FF0000" stroke-width="2" opacity="0.8">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="0" y1="105" x2="1200" y2="105" stroke="#FF3333" stroke-width="1" opacity="0.5">
+    <animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.5s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Moving red particles -->
+  <circle r="3" fill="#FF0000" filter="url(#redGlow)">
+    <animate attributeName="cx" values="0;1200" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="10;10" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#FF0000" filter="url(#redGlow)">
+    <animate attributeName="cx" values="0;1200" dur="3.3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="100;100" dur="3.3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="3.3s" repeatCount="indefinite"/>
+  </circle>
 </svg>
 
 <div align="center">
